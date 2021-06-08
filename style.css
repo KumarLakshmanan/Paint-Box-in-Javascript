@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body,
+html {
+	overflow: hidden;
+}
+.settings,
+.btnToggle {
+	position: fixed;
+	top: 10px;
+	cursor: pointer;
+	background: #202020;
+	color: #fff;
+	padding: 10px 5px;
+	border-radius: 3px;
+}
+.btnToggle {
+	right: 10px;
+}
+.settings {
+	width: 95%;
+	max-width: 400px;
+	left: 10px;
+}
+.settings.hide {
+	display: none;
+}
+.inputGroup {
+	padding: 5px;
+	border-radius: 3px;
+	background: #404040;
+	margin: 10px 5px;
+}
+input {
+	width: 100%;
+}
+.settingsBtn.active {
+	opacity: 0.5;
+}
